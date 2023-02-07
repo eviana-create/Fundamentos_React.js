@@ -23,8 +23,7 @@ import Form from  './components/Form'
       foto="https://via.placeholder.com/150" 
       />
       <List />
-      <Evento numero="1"/>
-      <Evento numero="2"/>
+      <Evento />
       <Form />
     </div>
   )
