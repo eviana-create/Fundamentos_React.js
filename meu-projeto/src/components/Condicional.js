@@ -9,9 +9,8 @@ function Condicional() {
     e.preventDefault()
    setUserEmail(email)
 
-    function limparEmail() {
-    setUserEmail('')
-
+   function limparEmail() {
+   setUserEmail(email)
 
     }
 
