@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Formulario</title>
+</head>
+<body>
+    <form name="meu_primeiro_formulario" method="post" action="gravaDados.php" enctype="multipart/form-data">
+        
+        <label>Dias da Semana</label>
+        <select name="dias_da_semana">
+            <option value="segunda">Segunda-Feira</option>
+            <option value="terça">Terça-Feira</option>
+            <option value="quarta">Quarta-Feira</option>
+            <option value="quinta">Quinta-Feira</option>
+            <option value="sexta">Sexta-Feira</option>
+            <option value="sabado">Sabado</option>
+            <option value="domingo">Domingo</option>
+        </select>
+        <br>
+        <label>Contato:</label>
+        <textarea placeholder="Digite sua mensagem"></textarea>
+        <br>
+        <label>Enviar</label>
+        <button>Clique Aqui</button>
+    </form>
+</body>
+</html>

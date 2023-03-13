@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+</head>
+<body>
+    <form method="post" action="contato.php">
+        <h1>Contato</h1>
+        <label>Nome Completo</label><br>
+        <input type="text" name="nome" size="50" placeholder="Entre com seu nome completo">
+        <br><br>
+        <table>
+            <tr>
+                <td>
+                    <label>E-mail</label><br>
+                    <input type="email" name="number" placeholder="Entre com seu e-mail">
+                </td>
+                <td>
+                    <label>Telefone</label><br>
+                    <input type="email" name="number" placeholder="Entre com seu Telefone">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <label>Assunto</label><br>
+        <input type="text" name="assunto" size="50" placeholder="Informe o assunto">
+        <br><br>        
+        <label>Mensagem</label><br>
+        <textarea name="mensagem" placeholder="Entre com sua mensagem" rows="5" cols="50"></textarea>
+        <br><br>
+        <input type="submit" name="submit" value="Enviar">
+    </form>
+</body>
+</html>
